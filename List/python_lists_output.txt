@@ -1,0 +1,74 @@
+Lists are a  collection  of items which are ordered and mutable.
+Mutable means we can add, remove and  change items in a list after it's creation
+
+
+********** creating list **********
+['C', 'C++', 'Java', 'JavaScript', 'Python']
+
+********** changing item name in a list **********
+['C', 'C PlusPlus', 'Java', 'JavaScript', 'Python']
+
+********** type of a  list **********
+<class 'list'>
+
+********** looping through a list : for loop, method 1 **********
+C
+C PlusPlus
+Java
+JavaScript
+Python
+
+********** looping through a list : for loop method 2 **********
+C
+C PlusPlus
+Java
+JavaScript
+Python
+
+********** looping through a list : while loop **********
+C
+C PlusPlus
+Java
+JavaScript
+Python
+
+********** sorting lists  **********
+sorted list in reverse order : ['Python', 'JavaScript', 'Java', 'C PlusPlus', 'C']
+sorted list : [73, 78, 85, 90, 95]
+
+********** copying lists  **********
+['Python', 'JavaScript', 'Java', 'C PlusPlus', 'C']
+
+********** joining   lists  **********
+['Python', 'JavaScript', 'Java', 'C PlusPlus', 'C', 73, 78, 85, 90, 95]
+
+********** Built-in methods for lists  **********
+
+********** append() : adding an item to list **********
+['Python', 'JavaScript', 'Java', 'C PlusPlus', 'C', 'R']
+
+********** remove() : removing item from list **********
+['Python', 'Java', 'C PlusPlus', 'C', 'R']
+
+********** clear() : remove all elements from a  list **********
+[]
+
+********** count() : count of elements with the specified value**********
+1
+[2, 4, 5, 2, 3, 4, 6, 7, 8, 9, 2]
+Number 2 repeated 3  times.
+
+********** extend() add elements to end of list**********
+['Python', 'JavaScript', 'Java', 'C PlusPlus', 'C', 73, 78, 85, 90, 95]
+
+********** index()  : returns the index of an specified element**********
+ Index of Java is : 2
+
+********** insert()  : insert element at a  specified index**********
+['Python', 'C#', 'JavaScript', 'Java', 'C PlusPlus', 'C', 73, 78, 85, 90, 95]
+
+********** pop()  : removes an element from a  specified index**********
+['Python', 'JavaScript', 'Java', 'C PlusPlus', 'C', 73, 78, 85, 90, 95]
+
+********** reverse()  : reverse the order of elements of a list **********
+[95, 90, 85, 78, 73, 'C', 'C PlusPlus', 'Java', 'JavaScript', 'Python']
