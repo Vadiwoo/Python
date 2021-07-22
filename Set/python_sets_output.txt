@@ -1,0 +1,82 @@
+Sets are a  collection  of items which are unordered and un-indexed and immutable. So, we can't access the 
+items of a set using index. Immutable means we are not allowed to change  items in a set  after it's creation.
+Sets also do not allows to have duplicate items.
+
+
+********** creating a set : duplicate items are not allowed**********
+{'JavaScript', 'C++', 'Java', 'Python', 'C'}
+
+********** type of a  set **********
+<class 'set'>
+
+********** creating a set : using a constructor**********
+{'JavaScript', 'C++', 'Java', 'Python', 'C'}
+<class 'set'>
+
+********** accessing items of a set **********
+JavaScript
+C++
+Java
+Python
+C
+
+********** checking if an item exists in a set **********
+C++
+
+********** checking if an item exists in a set : output is a boolean value **********
+True
+
+********** Adding items to a set **********
+{'JavaScript', 'C++', 'Java', 'Python', 'C', 'Go'}
+
+********** update() method : can be used to set, list, tuple and dictionaries**********
+
+********** adding another set to a set : using update() **********
+{'Ruby', 'R', 'Pearl', 'JavaScript', 'C++', 'Java', 'Python', 'C', 'Go'}
+
+********** adding another list to a set : using update() **********
+{'Ruby', 'R', 'Swift', 'Pearl', 'JavaScript', 'C#', 'C++', 'SQL', 'Java', 'Python', 'C', 'Go'}
+
+********** Removing items from a set : using remove()**********
+{'Ruby', 'R', 'Pearl', 'JavaScript', 'C#', 'C++', 'SQL', 'Java', 'Python', 'C', 'Go'}
+
+********** Removing items from a set : using discard()**********
+{'Ruby', 'R', 'JavaScript', 'C#', 'C++', 'SQL', 'Java', 'Python', 'C', 'Go'}
+
+********** Removing items from a set : using pop(), last item will be removed**********
+Ruby
+{'R', 'JavaScript', 'C#', 'C++', 'SQL', 'Java', 'Python', 'C', 'Go'}
+
+********** Removing All items from a set : using clear()**********
+{'Swift', 'SQL', 'C#'}
+set()
+{'SQL'}
+
+********** Removing All items from a set : using del()**********
+{'Swift', 'SQL', 'C#'}
+
+********** Joining sets: using union()**********
+{'Swift', 'JavaScript', 'C#', 'C++', 'SQL', 'Java', 'Python', 'C'}
+{'Swift', 'JavaScript', 'C#', 'C++', 'SQL', 'Java', 'Python', 'C'}
+
+********** Joining sets: using intersection_update() to keep items present in BOTH sets**********
+{'C++', 'C'}
+
+********** Joining sets: using intersection() to keep items present in BOTH sets, returning  a new set**********
+{'C++', 'C'}
+
+********** Joining sets: using symmetric_difference_update() to eliminate duplicates **********
+{'JavaScript', 'SQL', 'Java', 'Python'}
+
+********** Joining sets: using symmetric_difference() to eliminate duplicates, returning a new set **********
+{'JavaScript', 'SQL', 'Java', 'Python'}
+
+********** checking for disjoints sets: using disjoint()**********
+False
+isdisjoint() returns True if none of the items are present in both sets, otherwise it returns False.
+
+********** checking for subsets: using issubset()**********
+True
+
+********** checking for supersets: using issuperset()**********
+True
