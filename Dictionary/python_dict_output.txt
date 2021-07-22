@@ -1,0 +1,99 @@
+A dictionary is a collection which is ordered, changeable and does not allow duplicates.
+Dictionaries are written in key-values pair
+
+
+********** creating a dictionary  **********
+
+**********  accessing dictionary items  **********
+{'language': 'C', 'year': 1972, 'creator': 'DennisRitchie'}
+
+********** accessing an item by key   **********
+1972
+
+********** accessing an item by get()  **********
+DennisRitchie
+
+********** accessing keys of a dictionary  **********
+dict_keys(['language', 'year', 'creator'])
+
+********** accessing values of a dictionary  **********
+dict_values(['C', 1972, 'DennisRitchie'])
+
+********** accessing items of a dictionary  **********
+dict_items([('language', 'C'), ('year', 1972), ('creator', 'DennisRitchie')])
+
+********** adding new key to dictionary  **********
+dict_keys(['language', 'year', 'creator', 'has_pointer'])
+
+********** checking if a key exists in a  dictionary  **********
+yes
+no
+
+********** changing item values in a dictionary  **********
+{'language': 'C', 'year': 1998, 'creator': 'DennisRitchie', 'has_pointer': 'True'}
+
+********** changing item values in a dictionary  **********
+{'language': 'C', 'year': 1972, 'creator': 'DennisRitchie', 'has_pointer': 'True'}
+
+********** removing  item using key name : using pop()   **********
+{'language': 'C', 'year': 1972, 'creator': 'DennisRitchie'}
+
+********** removing last inserted  item  : using popitem()   **********
+{'language': 'C', 'year': 1972}
+
+********** removing item using key name : using del()   **********
+{'language': 'C'}
+
+********** removing entire dictionary  : using del()   **********
+
+********** removing entire dictionary  : using clear()   **********
+{'language': 'C', 'year': 1972, 'creator': 'DennisRitchie'}
+{}
+
+Looping through a dictionary:
+
+getting all key names of a dictionary: method 1
+language
+year
+creator
+
+getting all key names of a dictionary: method 2
+language
+year
+creator
+
+getting all values names of a dictionary ; method 1 
+C
+1972
+DennisRitchie
+
+getting all values names of a dictionary: method 2 
+C
+1972
+DennisRitchie
+
+getting all key value pairs  of a dictionary
+language C
+year 1972
+creator DennisRitchie
+
+Copying a  dictionary : using copy()
+{'language': 'C', 'year': 1972, 'creator': 'DennisRitchie'}
+
+Copying a  dictionary : using dict()
+{'language': 'C', 'year': 1972, 'creator': 'DennisRitchie'}
+
+Nested Dictionary : method 1 
+{'first': {'language': 'C', 'year': 1972, 'creator': 'DennisRitchie'}, 'second': {'language': 'C++', 'year': 1983, 'creator': 'Bjarne Stroustrup'}, 'third': {'language': 'Java', 'year': 1995, 'creator': ' James Gosling '}}
+
+Nested Dictionary : method 1 
+{'first': {'language': 'C', 'year': 1972, 'creator': 'DennisRitchie'}, 'second': {'language': 'C++', 'year': 1983, 'creator': 'Bjarne Stroustrup'}, 'third': {'language': 'Java', 'year': 1995, 'creator': ' James Gosling '}}
+
+creating a Dictionary using fromkeys() method
+{'C': 90, 'C++': 90, 'Java': 90}
+
+setdefault() method returns the value of the item with the specified key. If the key does not exist, 
+the method will insert the key, with the specified value
+{'language': 'C', 'year': 1972, 'creator': 'DennisRitchie'}
+95
+{'language': 'C', 'year': 1972, 'creator': 'DennisRitchie', 'score': 95}
