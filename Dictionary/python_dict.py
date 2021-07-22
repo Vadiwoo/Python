@@ -7,6 +7,7 @@ dict_items = {
     "year": 1972,
     "creator": "DennisRitchie"  # BjarneStroustrup,
 }
+print(dict_items)
 print("\n**********  accessing dictionary items  **********")
 print(dict_items)
 

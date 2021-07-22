@@ -3,6 +3,7 @@ Dictionaries are written in key-values pair
 
 
 ********** creating a dictionary  **********
+{'language': 'C', 'year': 1972, 'creator': 'DennisRitchie'}
 
 **********  accessing dictionary items  **********
 {'language': 'C', 'year': 1972, 'creator': 'DennisRitchie'}
