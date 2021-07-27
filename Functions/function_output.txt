@@ -1,0 +1,77 @@
+ def keyword : python functions are defined with the def keyword *********
+
+********** calling a function  **********
+This statement is inside a function
+
+********** function with arguments **********
+Area 1  is  540
+Area 2 is  5.16
+
+********** function with arbitrary arguments, (*args) **********
+The second language is C++
+The second language is SQL
+
+********** key-value arguments**********
+The second language is Pearl
+
+********** default parameter value **********
+The  language is Python
+The  language is Java
+
+********** Passing A List/Tuple/Dictionary as arguments **********
+
+The type of collection is :  <class 'tuple'>
+C
+C++
+Python
+Java
+
+The type of collection is :  <class 'list'>
+C
+C++
+Python
+Java
+
+The type of collection is :  <class 'set'>
+C
+C++
+Java
+Python
+
+The type of collection is :  <class 'dict'>
+first : C
+second : C++
+third : Python
+fourth : Java
+
+********** function recursion : function calls itself  : example 1 **********
+In this example below  recursion function that takes a number as argument and 
+recurse after decrementing the number by one, and finally prints the  results. 
+
+
+Recursion Results : 
+  0
+  1
+  3
+  6
+  10
+  15
+  21
+  28
+  36
+  45
+
+********** function recursion : function calls itself  : example 2 **********
+A Fibonacci sequence is the integer sequence of 0, 1, 1, 2, 3, 5, 8....
+In this example below we will print Fibonacci numbers using recursion. 
+Fibonacci Series:
+  0
+  1
+  1
+  2
+  3
+  5
+  8
+  13
+  21
+  34

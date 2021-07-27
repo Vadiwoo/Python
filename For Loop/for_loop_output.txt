@@ -1,0 +1,77 @@
+
+********** Looping through a string **********
+p
+r
+o
+g
+r
+a
+m
+m
+i
+n
+g
+
+********** Looping through a list **********
+C
+C++
+Java
+
+********** break : Stopping a for_loop using break**********
+C
+C++
+
+********** continue : skipping the current iteration and moving to next one **********
+C
+Java
+
+********** range() : the range() function returns sequence of numbers from 0 to specified number(exclusive) **********
+0
+1
+2
+3
+4
+
+********** range(x,y) : the range() function with two parameters **********
+2
+3
+4
+5
+
+********** range(x,y, z) : the range() function with three  parameters **********
+20
+30
+40
+50
+60
+70
+80
+90
+
+********** else keyword : specifies a block of code to be executed after the for loop **********
+20
+30
+40
+50
+60
+70
+80
+90
+Nicely Done
+
+********** Nested Loop **********
+red book
+red pen
+red bag
+
+
+orange book
+orange pen
+orange bag
+
+
+yellow book
+yellow pen
+yellow bag
+
+
