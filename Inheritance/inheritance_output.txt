@@ -1,0 +1,56 @@
+Inheritance allows the Child Class to inherit all the properties as well as methods from the Parent Class.
+
+********** Creating a Parent Class  *********
+iphone 1
+Company:  Apple Inc 
+Phone color:  grey
+
+iphone 2
+Company:  Apple Inc 
+Phone color:  red
+
+********** Creating a Child  Class without any properties and methods  *********
+
+iphone 3
+Company:  Apple Inc 
+Phone color :  grey
+
+********** Creating a Child  Class  constructor ( __init__() )   *********
+This is IPhone 10
+
+iphone 4
+Company:  Apple Inc 
+Phone color: 
+
+ERROR : 'IPhoneTen' object has no attribute 'color'
+
+Python throws this error because the child's constructor (__init__() function ) overrides the inheritance of the parent's  constructor (__init__() function
+
+To resolve this issue, we need to call the Parent Class Constructor
+
+********** Calling Parent Class Constructor from Child Class  *********
+
+iphone 5
+Company:  Apple Inc 
+Phone color :  grey 
+Name : IPhone 10
+
+********** The  use of super() function  *********
+We also can use the super() function to make the child class to inherit all the Parents class properties and 
+methods.
+
+iphone 6
+Company:  Apple Inc 
+Phone color:  Yellow 
+Name : IPhone 10
+
+Adding properties and methods to child classes
+
+iphone 7  
+Company:  Apple Inc 
+Phone color :  Orange 
+Name : IPhone 10  
+Face Recognition : True
+
+Additional Functionality : 
+HeartRate checking is available.

@@ -1,0 +1,21 @@
+In Python, classes are defined with the 'class' keyword  
+
+********** creating a class : the basic form *********
+ Book b1 publisher is :  Woo,Inc
+ Book b2 publisher is :  Woo,Inc
+
+********** creating a class : using the __init__() function *********
+All classes in python have the __init__() function which will be executed when a class is created. 
+
+********** the self parameter *********
+The self parameter is a reference to the current instance of the class. It is actually can be named 
+anything. 
+ Book b1 publisher is :  Woo,Inc
+ Book b1 publisher is :  undecided
+ Book b2 publisher is :  Woo,Inc
+
+********** Modifying object property *********
+ Book b1 publisher is :  New Publisher
+
+********** Deleting  object property *********
+ERROR : 'Book' object has no attribute 'publisher'

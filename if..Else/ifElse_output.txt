@@ -1,0 +1,13 @@
+python if..else statements relies on the indentation of the statements. 
+
+********** using if..elif  : finding max and min values of a tuple**********
+Maximum Vale is : 10
+Minimum Vale is : 2
+
+********** using else  : the else keyword will execute the code that wasn't caught by if..elif codes**********
+   2 : Group 1
+   5 : Group 2
+   7 : Group 2
+   3 : Group 1
+   6 : Group 2
+  10 : Group 3
