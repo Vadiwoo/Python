@@ -1,0 +1,61 @@
+
+********** In Python, we need to import datetime module to work with date objects *********
+Today is  2021-07-29 15:44:28.149286
+
+********** Extracting objects from datetime modules  *********
+Current year is  2021
+Current month is  7
+Current date is  29
+The day is  Thursday
+Christmas 2021 is on  Saturday
+
+********** The strftime() method can take one parameter and return the parameter in string *********
+Day in short: Today is   Thu
+
+Day in full: Today is   Thursday
+
+Day in number (Sunday = 0): Today is   4
+
+Day of the month :Today is   29
+
+Month in short: Today is  Jul
+
+Month in full : Today is   July
+
+Month in number : Today is   07
+
+Year in short :Today is   21
+
+Year in full : Today is   2021
+
+Hour in 24 hours system: Current time is  15
+
+Hour in 12 hours system: Current time is   03
+
+AM/PM : Now is  PM
+
+Minutes :Current minute is  44
+
+Seconds :Current second is  28
+
+Microseconds :Current Microsecond is   149286
+
+Number of the day in a year : Today is   210
+
+Week number of the yaar, Sunday as first day of week :Today is week of    30
+
+Week number of the yaar, Monday as first day of week  : Today is week of 30
+
+Local version of date and time : Today is  Thu Jul 29 15:44:28 2021
+
+Local version of date :  Today is   07/29/21
+
+Local version of time : Today is   15:44:28
+
+A % character : Today is   %
+
+ISO 8601 year : Today is  2021
+
+ISO 8601 weekday (1-7) : Today is  4
+
+ISO 8601 week number (01-53): Current time is  30
